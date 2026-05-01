@@ -1,0 +1,67 @@
+date,category,item,price_kes,location,data_quality,source_url,methodology_note
+2025-11-01,fuel,Petrol,160.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Nov 2025 pump prices
+2025-11-01,fuel,Diesel,148.20,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Nov 2025 pump prices
+2025-11-01,fuel,Kerosene,138.80,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Nov 2025 pump prices
+2025-11-01,food,Maize Flour - 2kg,135.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-11-01,food,Milk Fresh,52.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-11-01,food,Rice,170.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-11-01,food,Sugar,200.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-11-01,food,Bread,55.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-11-01,transport,Matatu CBD to Eastlands,70.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Nov 2025
+2025-11-01,transport,Matatu CBD to Westlands,60.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Nov 2025
+2025-11-01,transport,Matatu CBD to Rongai,130.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Nov 2025
+2025-12-01,fuel,Petrol,165.00,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Dec 2025 pump prices
+2025-12-01,fuel,Diesel,152.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Dec 2025 pump prices
+2025-12-01,fuel,Kerosene,142.00,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Dec 2025 pump prices
+2025-12-01,food,Maize Flour - 2kg,140.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-12-01,food,Milk Fresh,54.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-12-01,food,Rice,175.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-12-01,food,Sugar,210.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-12-01,food,Bread,57.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2025-12-01,transport,Matatu CBD to Eastlands,75.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Dec 2025
+2025-12-01,transport,Matatu CBD to Westlands,65.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Dec 2025
+2025-12-01,transport,Matatu CBD to Rongai,140.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Dec 2025
+2026-01-01,fuel,Petrol,168.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Jan 2026 pump prices
+2026-01-01,fuel,Diesel,156.00,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Jan 2026 pump prices
+2026-01-01,fuel,Kerosene,145.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Jan 2026 pump prices
+2026-01-01,food,Maize Flour - 2kg,142.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-01-01,food,Milk Fresh,55.50,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-01-01,food,Rice,178.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-01-01,food,Sugar,215.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-01-01,food,Bread,58.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-01-01,transport,Matatu CBD to Eastlands,78.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Jan 2026
+2026-01-01,transport,Matatu CBD to Westlands,68.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Jan 2026
+2026-01-01,transport,Matatu CBD to Rongai,145.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Jan 2026
+2026-02-01,fuel,Petrol,170.00,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Feb 2026 pump prices
+2026-02-01,fuel,Diesel,158.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Feb 2026 pump prices
+2026-02-01,fuel,Kerosene,147.00,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Feb 2026 pump prices
+2026-02-01,food,Maize Flour - 2kg,144.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-02-01,food,Milk Fresh,56.50,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-02-01,food,Rice,180.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-02-01,food,Sugar,218.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-02-01,food,Bread,59.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-02-01,transport,Matatu CBD to Eastlands,79.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Feb 2026
+2026-02-01,transport,Matatu CBD to Westlands,69.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Feb 2026
+2026-02-01,transport,Matatu CBD to Rongai,148.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Feb 2026
+2026-03-01,fuel,Petrol,172.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Mar 2026 pump prices
+2026-03-01,fuel,Diesel,160.80,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Mar 2026 pump prices
+2026-03-01,fuel,Kerosene,149.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA Mar 2026 pump prices
+2026-03-01,food,Maize Flour - 2kg,146.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-03-01,food,Milk Fresh,57.50,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-03-01,food,Rice,182.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-03-01,food,Sugar,219.00,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-03-01,food,Bread,59.50,Nairobi,estimated_from_index,https://www.knbs.or.ke,Estimated from KNBS CPI trend
+2026-03-01,transport,Matatu CBD to Eastlands,79.50,Nairobi,crowdsourced_estimate,,Based on commuter reports Mar 2026
+2026-03-01,transport,Matatu CBD to Westlands,69.50,Nairobi,crowdsourced_estimate,,Based on commuter reports Mar 2026
+2026-03-01,transport,Matatu CBD to Rongai,149.00,Nairobi,crowdsourced_estimate,,Based on commuter reports Mar 2026
+2026-04-01,fuel,Petrol,174.50,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA April 2026 pump prices
+2026-04-01,fuel,Diesel,163.20,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA April 2026 pump prices
+2026-04-01,fuel,Kerosene,151.80,Nairobi,verified_primary_source,https://www.epra.go.ke,EPRA April 2026 pump prices
+2026-04-01,food,Maize Flour - 2kg,148.00,Nairobi,verified_primary_source,https://www.knbs.or.ke,KNBS CPI April 2026
+2026-04-01,food,Milk Fresh,58.50,Nairobi,verified_primary_source,https://www.knbs.or.ke,KNBS CPI April 2026
+2026-04-01,food,Rice,185.00,Nairobi,verified_primary_source,https://www.knbs.or.ke,KNBS CPI April 2026
+2026-04-01,food,Sugar,220.00,Nairobi,verified_primary_source,https://www.knbs.or.ke,KNBS CPI April 2026
+2026-04-01,food,Bread,60.00,Nairobi,verified_primary_source,https://www.knbs.or.ke,KNBS CPI April 2026
+2026-04-01,transport,Matatu CBD to Eastlands,80.00,Nairobi,crowdsourced_estimate,,Based on commuter reports April 2026
+2026-04-01,transport,Matatu CBD to Westlands,70.00,Nairobi,crowdsourced_estimate,,Based on commuter reports April 2026
+2026-04-01,transport,Matatu CBD to Rongai,150.00,Nairobi,crowdsourced_estimate,,Based on commuter reports April 2026
