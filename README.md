@@ -1,45 +1,48 @@
-# Nairobi-Price-Intelligence
-# 🇰🇪 Nairobi Price Intelligence Dashboard
+# Nairobi Price Intelligence Dashboard
 
-**Tracking fuel, food, and transport costs in Kenya's capital**
-
-![Dashboard Screenshot](screenshot.png)
+**Real-time tracking of essential commodity prices in Nairobi, Kenya**
 
 ## Overview
 
-Nairobi Price Intelligence is a real-time dashboard monitoring essential commodity prices 
-across three critical categories: fuel, food staples, and public transport. Built with 
-Python, Streamlit, and Plotly, it transforms raw price data into actionable insights 
-for policymakers, researchers, and everyday Nairobians.
+Nairobi Price Intelligence monitors fuel, food staples, and public transport costs across Kenya's capital. Built with Python, Streamlit, and Plotly, it transforms raw price data into actionable insights for policymakers, researchers, and everyday consumers.
+
+## Live Dashboard
+
+Open in GitHub Codespaces: `Code → Codespaces → Create codespace on main`
+
+Run: `streamlit run scripts/dashboard.py`
+
+## Key Features
+
+- **6-Month Price Trends**: Visualize inflation across fuel, food, and transport
+- **Automated Insights**: Calculated inflation rates with methodology transparency
+- **Price Spike Alerts**: Automatic detection of significant month-over-month increases
+- **Personal Cost Calculator**: Estimate monthly essential costs based on consumption
+- **Data Quality Flags**: Every row labeled as verified, estimated, or crowdsourced
+- **CSV Export**: Download filtered data for external analysis
 
 ## Data Sources
 
 | Category | Source | Quality | Coverage |
 |----------|--------|---------|----------|
-| Fuel | EPRA Monthly Pump Prices | Verified Primary | Nov 2025 - Apr 2026 |
-| Food | KNBS CPI + Market Estimates | Mixed | Nov 2025 - Apr 2026 |
-| Transport | Crowdsourced Matatu Fares | Estimated | Nov 2025 - Apr 2026 |
+| Fuel | EPRA Monthly Pump Prices | Verified Primary | Nov 2025 – Apr 2026 |
+| Food | KNBS CPI + Market Estimates | Mixed | Nov 2025 – Apr 2026 |
+| Transport | Crowdsourced Matatu Fares | Estimated | Nov 2025 – Apr 2026 |
 
 ## Key Insights
 
-1. **Fuel Volatility Drives Transport Inflation**: Petrol prices increased 8.7% over 6 months 
-   (KES 160.50 → KES 174.50), while matatu fares rose 14.3% (KES 70 → KES 80). 
-   Transport costs outpaced fuel, suggesting cartel pricing power in SACCO-operated routes.
+1. **Fuel Volatility Drives Transport Inflation**: Petrol prices increased 8.7% over 6 months (KES 160.50 → KES 174.50), while matatu fares rose 14.3% (KES 70 → KES 80). Transport costs outpaced fuel, suggesting cartel pricing power in SACCO-operated routes.
 
-2. **Food Price Resilience**: The essential food basket (maize flour, milk, rice, sugar, bread) 
-   increased 9.6% over the same period, indicating stable agricultural supply chains despite 
-   global commodity shocks.
+2. **Food Price Resilience**: The essential food basket increased only 3.6% over the same period, indicating stable agricultural supply chains despite global commodity shocks.
 
-3. **Data Quality Transparency**: 55% of data points come from verified primary sources 
-   (EPRA/KNBS), 45% from estimated indices. All estimates are clearly flagged with 
-   methodology notes for reproducibility.
+3. **Data Quality Transparency**: 55% of data points come from verified primary sources (EPRA/KNBS), 45% from estimated indices. All estimates are clearly flagged with methodology notes.
 
 ## Methodology
 
 ### Fuel Prices
 - Sourced directly from EPRA monthly petroleum pump price reviews
-- Nairobi-specific prices extracted from PDF publications
-- Updated monthly within 48 hours of EPRA release
+- Nairobi-specific prices extracted from official publications
+- Updated manually within 48 hours of EPRA release
 
 ### Food Prices
 - Baseline verified from KNBS Consumer Price Index (CPI) publications
@@ -49,20 +52,19 @@ for policymakers, researchers, and everyday Nairobians.
 ### Transport Prices
 - Route-specific fares collected via commuter reports
 - Eastlands, Westlands, and Rongai routes tracked as representative samples
-- Adjusted monthly based on fuel price correlation (0.87 Pearson coefficient)
+- Adjusted monthly based on fuel price correlation
 
 ## Tech Stack
 
-- **Python 3.12** — Data processing
-- **Pandas** — Data manipulation
-- **Plotly** — Interactive visualizations
-- **Streamlit** — Dashboard framework
-- **SQLite** — Local data storage
+- Python 3.12
+- Pandas (data manipulation)
+- Plotly (interactive visualizations)
+- Streamlit (dashboard framework)
 
 ## Running Locally
 
 ```bash
-git clone https://github.com/yourusername/nairobi-price-intelligence.git
-cd nairobi-price-intelligence
+git clone https://github.com/Omondi-je/Nairobi-Price-Intelligence.git
+cd Nairobi-Price-Intelligence
 pip install pandas plotly streamlit
 streamlit run scripts/dashboard.py
